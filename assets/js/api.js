@@ -33,11 +33,11 @@ export const url = {
     },
     // URL para obter dados de geocodificação reversa com base na latitude e longitude
     airPollution(lat, lon) {
-        return `http://api.openweathermap.org/data/2.5/air_pollution?${lat}&${lon}`
+        return `https://api.openweathermap.org/data/2.5/air_pollution?${lat}&${lon}`
     },
     // URL para obter dados de geocodificação reversa com base na latitude e longitude
     reverseGeo(lat, lon) {
-        return `http://api.openweathermap.org/geo/1.0/reverse?${lat}&${lon}&limit=5&`
+        return `https://api.openweathermap.org/geo/1.0/reverse?${lat}&${lon}&limit=5&`
     },
 
 
