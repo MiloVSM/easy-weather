@@ -38,7 +38,7 @@ Easy weather is a simple and easy to use weather web app that provides real-time
 
 ### Pre-requisites
 
-Before running the project locally, ensure you have the following installed:
+> Before running the project locally, ensure you have the following installed:
 
 - **Node.js** - To run JavaScript code outside the browser environment.
 - **npm (Node Package Manager)** - To manage project dependencies and scripts.
@@ -79,7 +79,7 @@ Before running the project locally, ensure you have the following installed:
 <br></br>
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+> This project is licensed under the MIT License - see the LICENSE file for details.
 <br></br>
 
 **Don't forget to give the project a star!** ⭐
