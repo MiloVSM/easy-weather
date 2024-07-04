@@ -47,7 +47,7 @@ export const url = {
      * @returns URL formatada para a busca da cidade
      */
     geo(city) {
-        return `http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=5&`
+        return `https://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=5&`
     }
 
 }
