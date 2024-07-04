@@ -46,9 +46,9 @@ Easy weather is a simple and easy to use weather web app that provides real-time
 - **npm (Node Package Manager)** - To manage project dependencies and scripts.
 - **OpenWeatherMap API Key** - Sign up for an API key at [OpenWeatherMap](https://openweathermap.org/) and replace `your_api_key` in `api.js`.
 <br></br>
-  ```terminal
-    const api_key = "your_api_key"; // Your OpenWeatherMap API key
-  ```
+```terminal
+  const api_key = "your_api_key"; // Your OpenWeatherMap API key
+```
 
 ### Installation and Usage
    ```bash
@@ -65,11 +65,11 @@ Easy weather is a simple and easy to use weather web app that provides real-time
 :)
 
 ## How to Use
-  **Use Current Location**\
-  Click the "Use Current Location" button to fetch weather data based on your current geolocation.
+  **Use Current Location:**\
+Click the "Use Current Location" button to fetch weather data based on your current geolocation.
   
-  **Searching for Weather**\
-  Enter a city name in the search field to view current weather, 5-day forecast, and air quality index information for that location.
+  **Searching for Weather:**\
+Enter a city name in the search field to view current weather, 5-day forecast, and air quality index information for that location.
 <br></br>
 
 ## Contributing
