@@ -34,6 +34,8 @@ Easy weather is a simple and easy to use weather web app that provides real-time
 - `module.js`: Provides utility functions for formatting dates, times, and handling air quality index descriptions.
 - `route.js`: Manages routing for different locations (current location or searched location) and updates the URL hash accordingly.
 
+<br></br>
+
 ## Getting Started
 
 ### Pre-requisites
