@@ -27,6 +27,13 @@ Easy weather is a simple and easy to use weather web app that provides real-time
   </a>
 </p>
 
+### Project Structure
+
+- `api.js`: Handles data fetching from the OpenWeatherMap API and generates request URLs.
+- `app.js`: Integrates search functionality with the API, updates weather data on the UI, and displays fetched information.
+- `module.js`: Provides utility functions for formatting dates, times, and handling air quality index descriptions.
+- `route.js`: Manages routing for different locations (current location or searched location) and updates the URL hash accordingly.
+
 ## Getting Started
 
 ### Pre-requisites
@@ -40,13 +47,6 @@ Before running the project locally, ensure you have the following installed:
   ```terminal
     const api_key = "your_api_key"; // Your OpenWeatherMap API key
   ```
-
-### Project Structure
-
-- `api.js`: Handles data fetching from the OpenWeatherMap API and generates request URLs.
-- `app.js`: Integrates search functionality with the API, updates weather data on the UI, and displays fetched information.
-- `module.js`: Provides utility functions for formatting dates, times, and handling air quality index descriptions.
-- `route.js`: Manages routing for different locations (current location or searched location) and updates the URL hash accordingly.
 
 ### Installation and Usage
    ```bash
