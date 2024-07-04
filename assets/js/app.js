@@ -102,7 +102,6 @@ const errorContent = document.querySelector("[data-error-content]");
  */
 
 export const updateWeather = (lat, lon) => {
-    console.log("teste")
     loading.style.display = "grid";
     container.style.overflowY = "hidden";
     container.classList.remove("fade-in");
